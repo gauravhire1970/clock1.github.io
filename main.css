@@ -1,0 +1,47 @@
+#clock
+{
+	height: 500px;
+	width: 500px;
+	background: url(watch.png) no-repeat;
+	background-size: 100%;
+	margin: auto;
+	position: relative;
+	
+}
+
+#hr,#sec,#min
+{
+	position: absolute;
+	background: black;
+	border-radius: 5px;
+	
+
+}
+
+#hr
+{
+	height: 18%;
+	width: 9.3px;
+	top: 21%;
+	left: 48.3%;
+	transform-origin: bottom;
+}
+
+#sec
+{
+	height: 23%;
+	width: 4.9px;
+	top: 16%;
+	left: 48.5%;
+	transform-origin: bottom;
+}
+
+#min
+{
+	height: 20.3%;
+	width: 6.9px;
+	top: 19%;
+	left: 48.5%;
+	transform-origin: bottom;
+	
+}
